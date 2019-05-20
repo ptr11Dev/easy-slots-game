@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/bgc-wood.jpg")
+}
+
+.wrap {
+  width: 80%;
+  margin: 5vh auto 0;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: white;
+}
+
+.image {
+  background-size: cover;
+}
+
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 80px;
+}
+
+.game {
+  display: flex;
+  margin-bottom: 3vh;
+}
+
+.game div {
+  height: 30vh;
+  flex-grow: 1;
+  margin: 10px;
+  border: 3px solid gray;
+}
+
+.play {
+  text-align: center;
+}
+
+.play input {
+  height: 90px;
+  font-size: 40px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.play button {
+  width: 40%;
+  height: 90px;
+  text-align: center;
+  padding: 20px 60px;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-color: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+
+.panel {
+  margin: 60px 0 20px;
+}
+
+.panel,
+.score {
+  font-size: 50px;
+}
+
+.panel span,
+.score span {
+  font-weight: bold;
+}
+
+
+/* do sprawdzenia jeszcze */
+@media (max-width: 1024px) {
+  .wrap {
+    width: 90%;
+  }
+
+  .play input {
+    height: 70px;
+    font-size: 30px;
+    display: block;
+    margin: 20px auto;
+
+  }
+
+  .play button {
+    height: 74px;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slot machine</title>
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700&amp;subset=latin-ext"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <h1>Let's play some slots!</h1>
+
+    <section class="game">
+      <div class="image"></div>
+      <div class="image"></div>
+      <div class="image"></div>
+    </section>
+
+    <section class="play">
+      <input type="number" placeholder="Choose your stake" id="bid">
+      <button id="start">Let's rock!</button>
+    </section>
+
+    <section class="panel">You have: <span class="wallet"></span> in your Wallet.</section>
+
+    <section class="score">
+      <span class="result"></span> You've played <span class="number"></span> times. <span class="win"></span> won
+      <span class="loss"></span> lost
+    </section>
+
+  </div>
+  <script src="wallet.js"></script>
+  <script src="statistics.js"></script>
+  <script src="draw.js"></script>
+  <script src="result.js"></script>
+  <script src="game.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
