@@ -12,7 +12,7 @@
 
 ## General info
 
-This is easy slots game where you stat with \$200. Just put the stack and roll. There are two possible win conditions:
+This is easy slots game where you start with \$200. Just insert the stack and roll. There are two possible win conditions:
 
 - all three pictures are **the same**
 - all three pictures are **different**
