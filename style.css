@@ -17,6 +17,8 @@ body {
 
 .image {
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
@@ -80,7 +82,6 @@ h1 {
 }
 
 
-/* do sprawdzenia jeszcze */
 @media (max-width: 1024px) {
   .wrap {
     width: 90%;
