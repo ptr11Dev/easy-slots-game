@@ -49,12 +49,13 @@ h1 {
   height: 90px;
   font-size: 40px;
   padding: 20px;
-  width: 400px;
+  width: 40vw;
+  max-width: 500px;
   text-align: center;
 }
 
 .play button {
-  width: 40%;
+  width: 50%;
   height: 90px;
   text-align: center;
   padding: 20px 60px;
@@ -89,7 +90,7 @@ h1 {
 
   .play input {
     height: 70px;
-    font-size: 30px;
+    font-size: 1em;
     display: block;
     margin: 20px auto;
 
