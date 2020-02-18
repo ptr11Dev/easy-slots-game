@@ -93,7 +93,6 @@ h1 {
     font-size: 1em;
     display: block;
     margin: 20px auto;
-
   }
 
   .play button {
@@ -105,4 +104,25 @@ h1 {
     padding: 0 20px;
   }
 
+}
+
+@media (max-width:480px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .panel,
+  .score {
+    font-size: 30px;
+  }
+
+  .play input {
+    font-size: .8em;
+    padding: 5px;
+  }
+
+  .play button {
+    font-size: 18px;
+    padding: 0 5px;
+  }
 }
